@@ -3,3 +3,16 @@ Topics to be discussed today
 2. Git Hub practice
 3.
 4.
+
+Topics were discussed on this day:
+1. Basic python functions like input() and print()
+2. for loop in python.
+3. Multiline comment / uncomment trick in python.
+4. Different ways to print statements in python.
+5. Arithmatic operations like : addition and division.
+6. Git Hub pulling request.
+
+Task for Anwesha:
+1. Push the python code(.py file) created today to GITHub.
+2. Write a program to print all the integers between 1 to 100 which are divisible by 3. Use for loop to write this program.
+   output of the above program looks like: 3, 6, 9, 12, 15 ....
