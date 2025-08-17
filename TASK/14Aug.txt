@@ -1,5 +1,5 @@
 Topics to be discussed today
-1. Python basic programming
+1. Python basic programming : input () and print() function : input(): allows you to take input from keyboard
 2. Git Hub practice
 3.
 4.
