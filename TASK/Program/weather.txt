@@ -5,3 +5,5 @@ Wed
 Thur
 
 Average temp of the day=
+
+18 15 12 14 18 20 21 24 25 23 
