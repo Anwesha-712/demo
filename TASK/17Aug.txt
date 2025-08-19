@@ -5,7 +5,8 @@ Topics to be discussed today
 4.
 
 Topics were discussed on this day:
-1. 
+1. min(), max(), pow()
+2. Git hub practice
 
 Task for Anwesha:
-1. 
+1. Nothing
