@@ -1,0 +1,17 @@
+Topics to be discussed today
+1. GIT hub Review process explanation
+2. Git Hub practice
+3.
+4.
+
+Topics were discussed on this day:
+1. Created Pull request for Review. Learnt how to add collaborator(reviewer) for review.
+2. Git hub practice
+3. Learnt how to get code review done and merge the changes to master branch
+
+Task for Anwesha:
+1. Write a Python program that prints all even numbers from 1 to 20.
+2. Write a Python program that asks the user to enter name of 3 indian states and their capital city name and then prints each state and city on new line. 
+  Output should looks like: 
+    West Bengal : Kolkata,
+    Karnataka : Bengaluru, 
