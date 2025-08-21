@@ -8,3 +8,26 @@ If there is any changes(pull request) in GitHub
 7. Check the git hub if the changes are delivered
 
 Between every steps run #git status and #git log commands to see the changes in steps.
+
+
+List of Git Commands for practice:
+1. $git status: To know the current status of the local git repo
+2. $git log: To see the history of the branch including the Git commit id, commit message, author, commit time etc.
+3. $git log --oneline: It does the same as $git log but shows each log message in one line (shorter format)
+4. $git add <file_name> or $git add . : This adds the untracked or tracked files to git for commit.
+5. $git commit: it commits the changes to git repo and creates a commit id for future reference.
+6. $git push : it pushes the changes from local repo to remote repo
+7. $git pull: it pulls the changes from remote repo to local repo
+8. $git branch: it shows all available branches for the repo
+9. $git checkout <branch name or commit id> : it jumps/switches to the branch or commit id mentioned with the command
+10. $git switch <branch name>: it switches the branch to another branch.
+11. $git checkout -b <New branch name>: it creates a new branch with branch name mentioned with the command
+
+List of Linux commands for practice:
+1. $cd <folder name> or <../>: Change directory command. Either you go into a folder or comes out from the folder
+2. $ls : listing the files or folder details for PWD(present working directory)
+3. $pwd: gives the path of where your are exactly i.e PWD(present working directory)
+4. $touch <filename>: creates newe file 
+5. $cat <file name> : to read the content of the file
+6. $ls -l : listing of the files and folder in PWD with more details
+7. $mkdir <folder name>: to create a new folder with folder name mentioned with the command
