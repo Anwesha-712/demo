@@ -1,5 +1,6 @@
 
 Monday 20'c 25'c 28'c
+
 Tuesday 22'c 35'c 29'c
 Wed
 Thur
@@ -7,3 +8,9 @@ Thur
 Average temp of the day=
 
 18 15 12 14 18 20 21 24 25 23 
+
+2 power of 3 ´ 2x2x2
+
+1. wap to take the temp reading for  mon - fri and 3 reading for each day. output : Monday = [12,13,14] Tuesday = [14, 15, 16] ...so on
+
+['12', '13', '14', '14', '12', '25', '14', '25', '23', '22', '22', '24', '15', '13', '15']
