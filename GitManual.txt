@@ -16,6 +16,7 @@ List of Git Commands for practice:
 3. $git log --oneline: It does the same as $git log but shows each log message in one line (shorter format)
 4. $git add <file_name> or $git add . : This adds the untracked or tracked files to git for commit.
 5. $git commit: it commits the changes to git repo and creates a commit id for future reference.
+   $git commit --amend: It commits the changes along with the previous commit id. It doesn't create a new commit. This is                             usually used when a commit is not completed previously and need addition of few more changes.
 6. $git push : it pushes the changes from local repo to remote repo
 7. $git pull: it pulls the changes from remote repo to local repo
 8. $git branch: it shows all available branches for the repo
