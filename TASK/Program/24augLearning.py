@@ -29,13 +29,10 @@ temperature=[] #List data structure
 day_list = ["Mon","Tues","Wed","Thru","Fri"]
 for Day in day_list:
     for i in range(3):
-        temp =input("enter the temperature of the  " + Day + "day 8hr interval : ")
-        temperature.append(temp)
+        temp =input("enter the temperature of the  " + Day + " day 8hr interval " + str(i+1) +": ")
+        daily_temps.append(temp)
+        temperature[day] = daily_temps
 
-
-
-
-# for display in range(5):
-#     print(day_list)
-
+        for day, temps in temperature.items(): 
+         print(f"{day} = {temps}")
 

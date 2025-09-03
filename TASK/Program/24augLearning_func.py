@@ -11,7 +11,6 @@ def MonToFridayTempReading():
  
 
 # Tak  the temp for mon -friday again and dispay
-
 print("Hello")
 MonToFridayTempReading()
 # find tha average temp value for week 
