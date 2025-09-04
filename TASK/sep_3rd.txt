@@ -1,0 +1,15 @@
+Topics planned to be discussed today
+1. Different operations with List [] in python . Ex: append(), extend(), pop(), index(), insert() 
+2. Git and Git hub practice
+
+Topics Discussed:
+1. point 1 and 2
+2. 
+
+Task for Anwesha:
+1. Update this program (TASK/Program/31AugLearning.py) to meet below requirement:
+    Requirement 1: create a function Update_temp_reading() to update the temp of the day and its reading. The function should take 2 arguments i.e day(string) and reading(int) to be updated.  
+    Requirement 2: create a function Delete_temp_reading() to delete the temp of the day and its reading. The function should take 2 arguments i.e day(string) and reading(int) to be deleted.  
+    Requirement 3: create a function Insert_Day_temp_reading() to insert a new day and its temp reading. 
+    Requirement 4: Executed all these 3 functions Update_temp_reading(), Delete_temp_reading() and Insert_Day_temp_reading() in main function in a loop.
+2. Push the code to Git Hub and create a review request.    
