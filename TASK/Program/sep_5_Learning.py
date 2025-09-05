@@ -1,39 +1,22 @@
-
-Monday 20'c 25'c 28'c
-
-Tuesday 22'c 35'c 29'c
-Wed
-Thur
-
-Average temp of the day=
-
-18 15 12 14 18 20 21 24 25 23 
-
-2 power of 3 ´ 2x2x2
-
-1. wap to take the temp reading for  mon - fri and 3 reading for each day. output : Monday = [12,13,14] Tuesday = [14, 15, 16] ...so on
-
-['12', '13', '14', '14', '12', '25', '14', '25', '23', '22', '22', '24', '15', '13', '15']
-
 Days_in_Week = ["Monday", "Tuesday", "Wednesday", "Thursday"]
 
 # Initialize a list to hold temperature data for each day of the week
-temp_data_week = [[] for list in range(4)]
+temp_data_week = [[] for list in range(4)] # nested list i.e few lists inside a list
 
 def Insert_Day_and_temp_reading(Day):
     if Day not in Days_in_Week:
-        Days_in_Week.append(Day)
-        temp_data_week.append([])
-        index = Days_in_Week.index(Day)
+        Days_in_Week.append(Day) # Add new day to the week at the end   
+        temp_data_week.append([]) # Add a new empty list for the new day
+        index = Days_in_Week.index(Day) # Get the index of the new day
         print(f"Enter 3 temperature readings for {Day}:")
-        for i in range(3):
-            temp = float(input(f"Reading {i + 1}: "))
-            temp_data_week[index].append(temp)
+        for i in range(3): # Taking 3 readings for the new day
+            temp = float(input(f"Reading {i + 1}: ")) # Taking temperature reading
+            temp_data_week[index].append(temp) # Append the reading to the new day's list
     else:
         print("Day already exists")
     print(f"Updated temperature data for the week: {temp_data_week}")
 
-def Delete_temp_reading_of_day(Day):
+def Delete_temp_reading_of_day(Day): # Delete temperature readings for a specific day
     if Day in Days_in_Week:
         index = Days_in_Week.index(Day)
         temp_data_week[index] = []
@@ -44,7 +27,7 @@ def Delete_temp_reading_of_day(Day):
 def Update_temp_reading_of_day(Day):
     # overwrite the existing temperature if data is present    
     if Day in Days_in_Week:
-        index = Days_in_Week.index(Day)
+        index = Days_in_Week.index(Day) # 0 : Monday 1 : Tuesday ...
         print(f"Enter 3 temperature readings for {Day}:")
         for i in range(3):
             temp = float(input(f"Reading {i + 1}: "))
@@ -58,12 +41,12 @@ def Update_temp_reading_of_day(Day):
     print(f"Updated temperature data for the week: {temp_data_week}")
 def main():
     #run below code infinite times
-    while True:
+    while True: # Infinite loop while(1)
         Day = input("Enter the day you want to update the temperature readings (e.g., Monday): ")
         Update_temp_reading_of_day(Day)
         Day = input("Delete the temperature readings of which day (e.g., Monday): ")
         Delete_temp_reading_of_day(Day)
         Day = input("Would you like to Insert a new day to the week (e.g., Sunday): ")
-        if Day:
+        if Day: # If a new day is provided
             Insert_Day_and_temp_reading(Day)
 main()

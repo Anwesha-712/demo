@@ -1,17 +1,15 @@
 Topics to be discussed today
-1. GIT hub Review process explanation
-2. Git Hub practice
-3.
-4.
+1. Update this program (TASK/Program/31AugLearning.py) to meet below requirement:
+    Requirement 1: create a function Update_temp_reading() to update the temp of the day and its reading. The function should take 2 arguments i.e day(string) and reading(int) to be updated.  
+    Requirement 2: create a function Delete_temp_reading() to delete the temp of the day and its reading. The function should take 2 arguments i.e day(string) and reading(int) to be deleted.  
+    Requirement 3: create a function Insert_Day_temp_reading() to insert a new day and its temp reading. 
+    Requirement 4: Executed all these 3 functions Update_temp_reading(), Delete_temp_reading() and Insert_Day_temp_reading() in main function in a loop.
+2. Push the code to Git Hub and create a review request.  
 
 Topics were discussed on this day:
-1. Created Pull request for Review. Learnt how to add collaborator(reviewer) for review.
-2. Git hub practice
-3. Learnt how to get code review done and merge the changes to master branch
+1. Both 1 & 2 
 
 Task for Anwesha:
-1. Write a Python program that prints all even numbers from 1 to 20.
-2. Write a Python program that asks the user to enter name of 3 indian states and their capital city name and then prints each state and city on new line. 
-  Output should looks like: 
-    West Bengal : Kolkata,
-    Karnataka : Bengaluru, 
+1. Improve the sep_5_SE_Learning.py file as below
+    a. The new day insertion should be sequence in order i.e if sunday is added and saturday , friday not in the list. Then create empty lists for sat and friday 
+    b. While deleting a day , reduce the size of master list . i.e Dafault size is 4, you added sunday , now size is 5, now delete sunday , size should reduce to 4 again. 

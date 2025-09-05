@@ -6,6 +6,10 @@ If there is any changes(pull request) in GitHub
 5. Commit the changes using # git commit
 6. Push the changes to git hub using # git push 
 7. Check the git hub if the changes are delivered
+8. Create a review request (Pull request)
+   step 1: Go to the pull request tab. Click "New Pull Request".
+   step 2: Compare the changes between HP branch and Master branch.
+   step 3: Add the reviewer and Add review request message and send.
 
 Between every steps run #git status and #git log commands to see the changes in steps.
 
