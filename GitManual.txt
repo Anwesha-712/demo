@@ -23,6 +23,10 @@ List of Git Commands for practice:
 9. $git checkout <branch name or commit id> : it jumps/switches to the branch or commit id mentioned with the command
 10. $git switch <branch name>: it switches the branch to another branch.
 11. $git checkout -b <New branch name>: it creates a new branch with branch name mentioned with the command
+12. $git diff <filename> : This command shows you the difference in the file from the last commit and the present changes
+13. $git restore <filename> : this allows you to undo the changes of a particular file.
+    $git restore . : this undo the changes for all the modifited files.
+15. $git help <command name> : gives the detail description of the command (opens in browser or in command line)
 
 List of Linux commands for practice:
 1. $cd <folder name> or <../>: Change directory command. Either you go into a folder or comes out from the folder
