@@ -14,3 +14,56 @@ Average temp of the day=
 1. wap to take the temp reading for  mon - fri and 3 reading for each day. output : Monday = [12,13,14] Tuesday = [14, 15, 16] ...so on
 
 ['12', '13', '14', '14', '12', '25', '14', '25', '23', '22', '22', '24', '15', '13', '15']
+
+Days_in_Week = ["Monday", "Tuesday", "Wednesday", "Thursday"]
+
+# Initialize a list to hold temperature data for each day of the week
+temp_data_week = [[] for list in range(4)]
+
+def Insert_Day_and_temp_reading(Day):
+    if Day not in Days_in_Week:
+        Days_in_Week.append(Day)
+        temp_data_week.append([])
+        index = Days_in_Week.index(Day)
+        print(f"Enter 3 temperature readings for {Day}:")
+        for i in range(3):
+            temp = float(input(f"Reading {i + 1}: "))
+            temp_data_week[index].append(temp)
+    else:
+        print("Day already exists")
+    print(f"Updated temperature data for the week: {temp_data_week}")
+
+def Delete_temp_reading_of_day(Day):
+    if Day in Days_in_Week:
+        index = Days_in_Week.index(Day)
+        temp_data_week[index] = []
+    else:
+        print("Invalid day")
+    print(f"Updated temperature data for the week after deletion : {temp_data_week}")
+
+def Update_temp_reading_of_day(Day):
+    # overwrite the existing temperature if data is present    
+    if Day in Days_in_Week:
+        index = Days_in_Week.index(Day)
+        print(f"Enter 3 temperature readings for {Day}:")
+        for i in range(3):
+            temp = float(input(f"Reading {i + 1}: "))
+            # overwrite the existing temperature if data is present
+            if len(temp_data_week[index]) > i:
+                temp_data_week[index][i] = temp
+            else:
+                temp_data_week[index].append(temp)
+    else:
+        print("Invalid day")
+    print(f"Updated temperature data for the week: {temp_data_week}")
+def main():
+    #run below code infinite times
+    while True:
+        Day = input("Enter the day you want to update the temperature readings (e.g., Monday): ")
+        Update_temp_reading_of_day(Day)
+        Day = input("Delete the temperature readings of which day (e.g., Monday): ")
+        Delete_temp_reading_of_day(Day)
+        Day = input("Would you like to Insert a new day to the week (e.g., Sunday): ")
+        if Day:
+            Insert_Day_and_temp_reading(Day)
+main()
