@@ -1,0 +1,13 @@
+Topics planned to be discussed today
+1. List of lists 
+2. How to optimize the code to reduce no of lines and to increse the readability and maintainability and reusabilty
+
+Topics Discussed:
+1. point 1 and 2
+2. 
+
+Task for Anwesha:
+1. Monday = [12,13,14] Tuesday = [14, 15, 16] ..etc
+    # wap to ask user to update the temp of particular day and particular reading . ex : TUESDAY and 2nd reading
+    # existing code and modifty . use for , list, indix concept or insert(index, item)
+2. Create a Review request in GitHub

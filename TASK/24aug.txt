@@ -1,0 +1,13 @@
+Topics planned to be discussed today
+1. Different ways of naming the variables. What are allowed and not allowed variable name in python.
+2. Ways of assigning types to variables?
+3. Nested for loop.
+4. Definition of a function and types in python. : The function allows us to create a block of code that can be reused to perform a specific task. Function make the code reusable and more organized.
+
+Topics Discussed:
+1. point 1 to 4
+2. Types of function : Pending for next day
+
+Task for Anwesha:
+1. wap to take the temp reading for  mon - fri and 3 reading for each day. output : Monday = [12,13,14] Tuesday = [14, 15, 16] ...so on
+2. wap to complete the average temp of the week . Modify the code written in 24augLearnig_func.py file.
