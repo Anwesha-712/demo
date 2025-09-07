@@ -1,0 +1,15 @@
+Topics to be discussed today
+1. if ..elif ..else in python
+2. Logical operation != , ==, not , comparision operator >= , <= 
+3. While loop in python and how difference is it from for loop.
+    For loop: For loop in python repeats the code till certain number of times.
+    while loop: while loops executed the code till the condition is true. If the condition never gets false, then the while loops is considered as an infinite loop.
+4. Break and continue keywords in python loop
+5. string and different string operations.
+6. Push the code to Git Hub and create a review request.  
+
+Topics were discussed on this day:
+1. completed 1,2,3
+
+Task for Anwesha:
+1.
