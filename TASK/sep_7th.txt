@@ -12,4 +12,10 @@ Topics were discussed on this day:
 1. completed 1,2,3
 
 Task for Anwesha:
-1.
+1. 
+   Days_in_Week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    Temp__list = [ [15,16,17], [15,10,33],[15,16,17], [15,10,33],[15,16,17], [15,10,33], [20, 21 , 22]]
+    wap to print monday to friday temp but do not print sat and sunday. Use while loop, and to skip sat and sun, use continue keyword.
+2. Days_in_Week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    Temp__list = [ [15,16,17], [15,10,33],[15,16,17], [15,10,33],[15,16,17], [15,10,33], [20, 21 , 22]]
+    wap to print monday to friday temp value and skip the printing as soon as you find a reading > 30 . Print (End of loop). use while loop for iteration , and use break to terminate or end the while loop.
