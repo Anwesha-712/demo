@@ -1,0 +1,35 @@
+Topics are planned to be discussed today
+1. string and different string operations: 
+  string.upper() 
+  .lower()
+  .istitle()
+  .issuper()
+  .capitalize()
+  .isdigit()
+  .isalpha()
+  .isalnum()
+  .endswith()
+  .startwith()
+  string constants: 
+    1. string.ascii_letters 
+    2. string.ascii.lowercase 
+    3. string.ascii_uppercase 
+    4. string.digits                   
+    5.string.hexdigits 
+    6. string.punctuation
+2. Dictionary data structure in Python.
+    my_dict.get(<key name>) // gives the value of the key  
+    my_dict.keys()  // gives all the keys
+    my_dict.values() //gives all the values
+    my_dict.items() // entire dictionary but iterable
+3. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
+
+Topics were discussed on this day:
+1. 
+
+Topics pending on this day:
+1. 
+
+
+Task for Anwesha:
+1.

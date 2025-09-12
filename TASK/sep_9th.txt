@@ -1,0 +1,15 @@
+Topics are planned to be discussed today
+1. Break and continue keywords in python loop
+2. string and different string operations.
+3. Dictionary data structure in Python.
+4. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
+
+Topics were discussed on this day:
+1. Break and continue keywords in python loop : Done
+
+Topics pending on this day:
+1. Pushing to GITHUB
+2. String operation and Dictionary 
+
+Task for Anwesha:
+1.
