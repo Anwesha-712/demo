@@ -32,4 +32,9 @@ Topics pending on this day:
 
 
 Task for Anwesha:
-1.
+1. Use the dictionary and for loop to represent the ddays and day's temp data.
+    output : Temp reading 1 for monday : 15
+    Temp reading 2 for monday : 16
+    Temp reading 3 for monday : 17
+
+ 

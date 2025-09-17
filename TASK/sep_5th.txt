@@ -11,5 +11,5 @@ Topics were discussed on this day:
 
 Task for Anwesha:
 1. Improve the sep_5_SE_Learning.py file as below
-    a. The new day insertion should be sequence in order i.e if sunday is added and saturday , friday not in the list. Then create empty lists for sat and friday 
+    a. The new day insertion should be sequence in order i.e if sunday is going to be added and saturday , friday not in the list. Then create empty lists for sat and friday 
     b. While deleting a day , reduce the size of master list . i.e Dafault size is 4, you added sunday , now size is 5, now delete sunday , size should reduce to 4 again. 
