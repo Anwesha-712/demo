@@ -10,6 +10,7 @@ Topics are planned to be discussed today
     my_dict.clear() # remove all
 
 
+
 3. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
 
 Topics were discussed on this day:
