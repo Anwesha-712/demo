@@ -1,45 +1,55 @@
-days_in_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-temp_of_days = [[20, 21, 22], [14, 15, 16], [60, 62, 64], [75, 78, 80], [30, 32, 34], [40, 42, 44], [50, 52, 54]]
+# days_in_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+# temp_of_days = [[20, 21, 22], [14, 15, 16], [60, 62, 64], [75, 78, 80], [30, 32, 34], [40, 42, 44], [50, 52, 54]]
 
-# Create a dictionary by zipping the two lists together
-my_dict = dict(zip(days_in_week, temp_of_days))
-print("Days and their temperature readings:", my_dict)
+# my_dict = {"Sunday" : [20, 21, 22],"Monday" : [14, 15, 16] }
+# # print(type(my_dict))
 
-for day, temps in my_dict.items():
-    print(f"Day: {day}")
-    for i, temp in enumerate(temps):
-        print(f"  Reading {i + 1}: {temp}")
+# # Create a dictionary by zipping the two lists together
+# my_dict = dict(zip(days_in_week, temp_of_days)) # {'Sunday': [20, 21, 22], 'Monday': [14, 15, 16], 'Tuesday': [60, 62, 64], 'Wednesday': [75, 78, 80], 'Thursday': [30, 32, 34], 'Friday': [40, 42, 44], 'Saturday': [50, 52, 54]}
+# # print(my_dict.keys())
+# # print(my_dict.values())
+# print("Days and their temperature readings:", my_dict)
+
+# for day, temp_list in my_dict.items():
+#     print(f"Day: {day}")
+#     # print(f"Temp: {temps}")
+#     for i, temp in enumerate(temp_list): # temps : list of temp 
+#         print(f"  Reading {i + 1}: {temp}")
 
 ###########################################
 
-days_in_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-temp_of_days = [[20, 21, 22], [14, 15, 16], [60, 62, 64], [75, 78, 80], [30, 32, 34], [40, 42, 44], [50, 52, 54]]
+# days_in_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+# temp_of_days = [[20, 21, 22], [14, 15, 16], [60, 62, 64], [75, 78, 80], [30, 32, 34], [40, 42, 44], [50, 52, 54]]
 
 # rewrite below print statutment to keep a line break after each print line
-print(list(zip(days_in_week, temp_of_days)))
+# print(list(zip(days_in_week, temp_of_days)))
 
 #my_dict = dict(a=1, b=2) 
-my_dict = dict(zip(days_in_week, temp_of_days))
-print(my_dict)
+# my_dict = dict(zip(days_in_week, temp_of_days))
+# print(my_dict)
 
-print(my_dict.keys())
-print(type(my_dict.keys()))
-my_list = my_dict.values()
-print(my_list)
-print(type(my_list))
+# print(my_dict.keys()) # returns the keys of the dictionary
+# print(type(my_dict.keys())) # returns the type of the keys in the dictionary : 
+# my_list = my_dict.values()
+# print(my_list)
+# print(type(my_list))
 
 # keys = my_dict.keys()            # iterable view
 # vals = my_dict.values() # iterable view
 # pairs = my_dict.items() # iterable view
 
-#print(my_dict.get("Monday"))
-#print(my_dict["Monday"])
+# print(my_dict.get("Monday"))
+# print(my_dict["Monday"])
 # my_dict.update({"Monday": 4, "Tuesday": 11}) #update multiple dictionary elements
+# print(my_dict)
 # my_dict["Sunday"] = [25, 26]
 # del my_dict["Sunday"]
+
 # print(my_dict.pop("Sunday", None)) # remove and return value
 # my_dict.popitem() # remove & return an arbitrary pair (Python 3.7+: last inserted)
+
 # my_dict.clear()
+# print(my_dict)
 
 ############################################
 days_in_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -47,7 +57,7 @@ temp_of_days = [[20, 21, 22], [14, 15, 16], [60, 62, 64], [75, 78, 80], [30, 32,
 my_dict = dict(zip(days_in_week, temp_of_days))
 
 def display_temp(day):
-    day = day.title() # Capitalize the first letter of the day
+    day = day.title() # Capitalize the first letter of the day ; sunday will be converted as Sunday
     if day in my_dict:
         #print(f"Temperature readings for {day}: {my_dict[day]}")
         print(f"Temperature readings for {day}: {my_dict.get(day)}")
@@ -76,9 +86,11 @@ def remove_day_from_week(day):
 def insert_day_and_temp_reading(day):
     day = day.title() # Capitalize the first letter of the day
     if day not in my_dict:
+        # check the position of the day from the week [] list and insert at that position
         my_dict[day] = [] # Add the new day with an empty list for temperature readings
         print(f"New day {day} has been added to the week.")
         print(f"New week days and their temperature readings : {my_dict}")
+
     else:
         print("Day already exists")
         return

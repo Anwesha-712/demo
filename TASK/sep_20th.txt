@@ -4,7 +4,13 @@ Topics are planned to be discussed today
     my_dict.keys()  // gives all the keys
     my_dict.values() //gives all the values
     my_dict.items() // entire dictionary but iterable
-3. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
+    my_dict.update(key:value, key1:value)
+    my_dict.pop(key) # to pop the element from dictionary
+    my_dict.popitem() # remove the last item pair
+    my_dict.clear() # remove all
+
+
+2. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
 
 Topics were discussed on this day:
 1. 
@@ -14,7 +20,7 @@ Topics pending on this day:
 
 
 Task for Anwesha:
-1. Use the dictionary and for loop to represent the ddays and day's temp data.
+1. 
 
 
  
