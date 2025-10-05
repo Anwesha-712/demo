@@ -18,6 +18,7 @@ List of Git Commands for practice:
 1. $git status: To know the current status of the local git repo
 2. $git log: To see the history of the branch including the Git commit id, commit message, author, commit time etc.
 3. $git log --oneline: It does the same as $git log but shows each log message in one line (shorter format)
+   $git log -4 or git log --oneline -4 : it shows the git history of past 4 commits 
 4. $git add <file_name> or $git add . : This adds the untracked or tracked files to git for commit.
 5. $git commit: it commits the changes to git repo and creates a commit id for future reference.
    $git commit --amend: It commits the changes along with the previous commit id. It doesn't create a new commit. This is                             usually used when a commit is not completed previously and need addition of few more changes.
@@ -31,6 +32,9 @@ List of Git Commands for practice:
 13. $git restore <filename> : this allows you to undo the changes of a particular file.
     $git restore . : this undo the changes for all the modifited files.
 15. $git help <command name> : gives the detail description of the command (opens in browser or in command line)
+16. $git show --stat <commit_id_1> <commit_id_2> : this shows the difference between two commits
+    $git show comit_id : this gives the result of one commit
+    
 
 List of Linux commands for practice:
 1. $cd <folder name> or <../>: Change directory command. Either you go into a folder or comes out from the folder

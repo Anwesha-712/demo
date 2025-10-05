@@ -1,0 +1,28 @@
+Topics are planned to be discussed today
+1. sets data structure
+
+2. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
+
+Topics were discussed on this day:
+1. 
+
+Topics pending on this day:
+1. 
+
+
+Task for Anwesha:
+1. File handling concept (.txt).
+    input_day = input("Enter the day you want to display temperature readings for (or 'exit' to quit): ")
+    display_temp(input_day)
+    input_day = input("Enter the day you want to delete temperature readings for (or 'exit' to quit): ")
+    delete_temp(input_day)
+    input_day = input("Enter the day you want to delete (or 'exit' to quit): ")
+    remove_day_from_week(input_day)
+    input_day = input("Enter the day you want to insert (or 'exit' to quit): ")
+    insert_day_and_temp_reading(input_day)	
+
+ 	Read the data  from txt file and represent in a dict and do the above operation.
+	for,while, function, list, dict , sets
+2. Xls file. 
+
+ 
