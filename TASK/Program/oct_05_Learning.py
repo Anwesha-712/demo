@@ -19,7 +19,7 @@
 ###################################
 
 import os
-# weather_file = 'C:/Users/ABAL2/Downloads/delete/weather_data.txt'
+# weather_file = 'C:/Users/xxxx/Downloads/delete/weather_data.txt'
 print(f"Present working directory: {os.getcwd()}")
 
 def display_temp(day):
