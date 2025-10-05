@@ -34,7 +34,9 @@ List of Git Commands for practice:
 15. $git help <command name> : gives the detail description of the command (opens in browser or in command line)
 16. $git show --stat <commit_id_1> <commit_id_2> : this shows the difference between two commits
     $git show comit_id : this gives the result of one commit
-    
+17. $git diff --stat <commit_id> : this shows the detail operation(changes in file(s)) belongs to that commit
+    $git diff <commit_id> : this shows the change content in a compare view(green and red colors)
+
 
 List of Linux commands for practice:
 1. $cd <folder name> or <../>: Change directory command. Either you go into a folder or comes out from the folder

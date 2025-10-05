@@ -1,18 +1,22 @@
 # with open('weather.txt', 'r') as data_file:
 #     data = data_file.readlines()
 #     print(data)
+# import os
+# print(f"Present working directory: {os.getcwd()}")
 # temp_data_dict = {}
+
 # data_file = open('weather.txt', 'r')
 # data = data_file.readlines()
+
 # for line in data:
 #     day = line.split(':')[0].strip()
 #     print(f"Day found : {day}")
 #     temp_data_dict[day] = []
 #     temps = line.split(':')[1].strip()
-#     temps = list(temps.split(','))
+#     temps_list = list(temps.split(','))
 
-#     print(f"Temperatures found : {temps}")
-#     print(f"Type of temps : {type(temps)}")
+#     print(f"Temperatures found : {temps_list}")
+#     # print(f"Type of temps : {type(temps)}")
 #     temp_data_dict[day] = temps
 # print(f"Temperature data dictionary: {temp_data_dict}")
 # data_file.close()
@@ -22,7 +26,7 @@ import os
 # weather_file = 'C:/Users/xxxx/Downloads/delete/weather_data.txt'
 print(f"Present working directory: {os.getcwd()}")
 
-def display_temp(day):
+def display_temp(day): #day = sunday SUNDAY
     
     data_file = open('weather.txt', 'r')
     data = data_file.readlines()
@@ -53,6 +57,7 @@ def insert_day_and_temp_reading(day):
         data_file.write(new_entry)
     data_file.close()
     print(f"Inserted temperature readings for {day}")
+
 while True:
     input_day = input("Enter the day you want to display temperature readings for (or 'exit' to quit): ")
     display_temp(input_day)

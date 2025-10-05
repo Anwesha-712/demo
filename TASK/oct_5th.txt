@@ -3,11 +3,13 @@ Topics are planned to be discussed today
 2. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
 
 Topics were discussed on this day:
-1. 
+1. File handling 
 
 Topics pending on this day:
 1. 
 
 
 Task for Anwesha:
-1. 
+1. fix the issues found in today's program. i.e friday : 20,21,22 must be in a new line
+    Monday : 20, 21, 23
+    Tuesday : 20, 21, 24Friday: 20,21,22

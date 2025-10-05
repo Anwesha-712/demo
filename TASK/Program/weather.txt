@@ -1,3 +1,2 @@
-"Sunday" : 20, 21, 22
- "Monday" : 20, 21, 22
- "Tuesday" : 20, 21, 22
+Monday : 20, 21, 23
+Tuesday : 20, 21, 24Friday: 20,21,22
