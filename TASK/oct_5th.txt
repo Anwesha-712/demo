@@ -1,0 +1,13 @@
+Topics are planned to be discussed today
+1. File handling with python.
+2. Commit the code to Git repo and Push the code to Git Hub and create a review request.  
+
+Topics were discussed on this day:
+1. 
+
+Topics pending on this day:
+1. 
+
+
+Task for Anwesha:
+1. 
